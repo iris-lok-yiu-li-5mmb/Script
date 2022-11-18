@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HTML Match app!</title>
+    <style>
+        body{
+        background-color: seashell;
+        }
+        header{
+            background-color: cornsilk;
+        }
+        p{
+            color: rgb(196, 4, 4);
+        }
+        ul{
+            color: darkblue;
+        }
+        ol{
+            color: darkblue;
+        }
+    </style>
+    <meta name="description" content="een applicatie voor te gaan matchen">
+</head>
+<body>
+    <!-- Hier komt mijn header-->
+    <header>
+        <h1>Match app!</h1></header>
+<main>
+<section id="intro">
+    <!-- Hier komt h2 -->
+<h2>Introductie!</h2>
+<img src="images/classroom.jpg" alt="Dit is een afbeelding van een klaslokaal"width="250px">
+<p>Klik hier voor <a href="http://google.com">meer foto's van klaslokalen.</a> </p>
+</section>
+<section id="lijstjes">
+    <h2>lijstjes</h2>
+    <ul><h3>Dingen die in een klaslokaal mogen</h3></ul>
+        <li>Zwijgen</li>
+        <li>Luisteren</li>
+        <li>Volgen</li>
+        <li>Studeren</li>
+        <ol><h4>Dingen die niet mogen in een klaslokaal</h4></ol>
+        <li>Door de leerkracht heen praten</li>
+        <li>Eten</li>
+        <li>Smartphone</li>
+        <li>Gamen</li>
+    </section>
+    <section id="Formulier ideale klaslokaal">
+    <h3>Klaslokaal formulier</h3>
+    <form>
+    <fieldset>
+        <legend>Vul uw naam hier in</legend>
+    <label for="fname">Voornaam:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Achternaam:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>De muren van het klaslokaal?</legend>
+     <input type="radio" name="kleuren" value="zwart">zwart
+     <input type="radio" name="kleuren" value="wit">wit
+     <input type="radio" name="kleuren" value="donker groen"> donker groen
+     <input type="radio" name="kleuren" value="rood"> rood
+    </fieldset>
+    <fieldset>
+        <legend>Aanwezig in klaslokaal</legend>
+    <label><input type="checkbox" name="comfortabele stoelen">comfortabele stoelen</label>
+    <label><input type="checkbox" name="banken">banken</label>
+    <label><input type="checkbox" name="projector">projector</label>
+    <label><input type="checkbox" name="bed">bed</label>
+    </fieldset>
+    <fieldset>
+        <legend>Mijn leeftijd</legend>
+        <input type="number" name="leeftijd" placeholder="18">
+    </fieldset>
+    <fieldset>
+        <legend>Vrije toevoeging</legend>
+        <textarea name="Vrije toevoeging"  cols="15" rows="10" placeholder="Hier vul je de vrije toevoeging"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Heeft u van ons gehoord?</legend>
+        <select name="enquete">
+         <option value="vrienden">vrienden</option>
+         <option value="familie">familie</option>
+         <option value="advertentie">advertentie</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <button type="submit">Verstuur dit formulier</button>
+        <button type="reset">Reset</button>
+    </fieldset>
+</section>
+</form>
+</main>
+<footer>
+    <p> Copyright Li </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Crimson Text', serif;
+    background-color: #25367c
+  }
+
+  header{
+    background-image: url(images/coldplay\ bg.jpg);
+    background-position: 20cm;
+    background-size: cover;
+    text-align: center;
+    color: #F6AC3D;
+    font-weight: bold;
+    font-size: large;
+  }
+header h1 {
+  margin-bottom: 20px;
+} 
+
+header nav{
+    background-color: #0a1643;    
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: #FFA2F3 ;
+  }
+
+nav a:hover {
+    background-color: #F6AC3D;
+    color: #FFFF;
+  }
+
+nav li{
+    display: inline;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+}
+
+ul{
+  margin: 0 auto;
+  width: 50%;
+}
+
+h2{
+  text-align: center;
+  font-weight: bolder;
+  color: #F6AC3D;
+  margin: 10px;
+}
+
+a:link{
+  color: #F6AC3D;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #F6AC3D;
+}
+
+p{
+  text-align: center;
+  color: white;
+}
+
+table, th, td {
+  border:1px solid #F6AC3D;
+}
+
+table th{
+  color: #FFA2F3;
+}
+
+table td{
+  color: #FFFF;
+}
+
+table{
+  text-align: center;
+}
+
+#merch img{
+  display: inline-block;
+}
+
+#gallery img {
+display: inline-block;
+margin: 15px;
+}
+
+footer p{
+  text-align: left;
+}
+
+  
