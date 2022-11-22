@@ -7,6 +7,10 @@ body{
     color: #62a186;
 }
 
+#flexbox{
+    display: flex;
+}
+
 div.col{
     margin: auto;
     padding: 5%;
