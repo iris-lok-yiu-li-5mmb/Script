@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 h1{
     text-align: center;
 }
@@ -5,6 +7,7 @@ h1{
 body{
     background-color: #D5F2E3;
     color: #62a186;
+    font-family: 'Crimson Text', serif;
 }
 
 #flexbox{
@@ -17,9 +20,21 @@ div.col{
     position: center;
 }
 
+.col{
+    width: 50%;
+    padding: 10%;
+    border: solid #98C9A3;
+    border-radius: 5%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
 li{
     display: inline;
-    display: inline-block;
+    display: block;
 }
 
 li a{
