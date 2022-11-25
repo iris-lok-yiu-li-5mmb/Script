@@ -15,23 +15,22 @@ body{
 }
 
 div.col{
-    margin: auto;
+    margin: 1%;
     padding: 5%;
-    position: center;
+
 }
 
 .col{
-    width: 50%;
+    width: 27%;
     padding: 10%;
     border: solid #98C9A3;
-    border-radius: 5%;
+    border-radius: 4%;
     text-align: center;
 }
 
 h2{
     text-align: center;
 }
-
 li{
     display: inline;
     display: block;
@@ -41,6 +40,10 @@ li a{
     text-decoration: none;
     color: #2f5a47;
     padding: 20px;
+}
+
+a:hover{
+    color: white;
 }
 
 a:visited{
