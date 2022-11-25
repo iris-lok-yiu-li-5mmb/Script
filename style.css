@@ -28,6 +28,10 @@ li a{
     padding: 20px;
 }
 
+a:visited{
+    color: #9D79BC ;
+}
+
 p a{
     text-decoration: none;
     color: #2f5a47;
