@@ -4,6 +4,10 @@ h1{
     text-align: center;
 }
 
+header, .col, footer{
+    padding: 2vh 4vw;
+}
+
 body{
     background-color: #D5F2E3;
     color: #62a186;
@@ -17,7 +21,6 @@ body{
 div.col{
     margin: 1%;
     padding: 5%;
-
 }
 
 .col{
