@@ -16,7 +16,7 @@ header{
 }
 
 header img {
-    width: 90px;
+    width: 70px;
 }
 
 i{
@@ -52,4 +52,9 @@ body {
 
 .menu {
     padding: 1rem;
+}
+
+.extra {
+    padding: 1rem;
+    background-color: rgb(185, 185, 185);
 }
