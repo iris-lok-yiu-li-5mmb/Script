@@ -32,11 +32,11 @@ nav li{
 
 nav li a{
     text-decoration: none;
+    color: #000000;
 }
 
 nav a:hover {
-    background-color: #3ddaf6;
-    color: #000000;
+    text-decoration: underline;
   }
 
 
