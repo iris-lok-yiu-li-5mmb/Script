@@ -100,3 +100,12 @@ body {
     background-color: rgb(216, 216, 216);
 
 }
+
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+.video {
+}
