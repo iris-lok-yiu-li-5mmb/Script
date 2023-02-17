@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 .flex-container {
     display: flex;
@@ -92,20 +93,44 @@ body {
     width: 50%;
     padding: 5px;
     background-color: #ebe8e8;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 #searchbalk:hover,
 #searchbalk:focus {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 
 .videoframe {
     overflow: hidden;
     margin-bottom: 3rem;
-    max-height: 50vh;
+    max-height: 100vh;
 }
 
 .video {
+    width: 100%;
+}
+
+h2{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-family: 'Oswald';
+    font-weight: medium 500;
+}
+
+figure {
+    position: relative;
+    justify-content: space-between;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+}
+
+#men{
+    width: 300px;
 }
