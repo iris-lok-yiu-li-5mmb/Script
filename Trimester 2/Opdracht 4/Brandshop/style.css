@@ -199,7 +199,19 @@ figcaption {
     gap: 2rem;
 }
 
-.flex-item {
+.trending-item {
     flex: 1;
 }
+
+.join-container {
+
+}
+
+.bgd-join {
+    background-image: url(https://jdsportsblog.s3.amazonaws.com/wp-content/uploads/2022/09/Blog_Header_1920x840-10-scaled.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+
 
