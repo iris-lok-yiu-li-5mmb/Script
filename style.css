@@ -37,6 +37,7 @@ h2{
 li{
     display: inline;
     display: block;
+    padding: 10px;
 }
 
 li a{
