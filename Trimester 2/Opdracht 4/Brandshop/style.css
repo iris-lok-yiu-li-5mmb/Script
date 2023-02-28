@@ -129,9 +129,68 @@ input:hover::placeholder {
     width: 100%;
 }
 
+.bigadd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: auto;
+    padding: 45px;
+    background-color: rgb(185, 185, 185);
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 150px;
+    max-height: 250p;
+    padding: 15px;
+    gap: 35px;
+}
+
+#crossed{
+    color: rgb(72, 72, 72);
+    text-decoration: line-through;
+    padding-bottom: 3px;
+}
+
+.left button{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+
+
+#buy{
+    background-color: white;
+    color: #000000;
+}
+
+#buy:hover{
+    background-color: #000000;
+    color: white;
+}
+
+#look{
+    background-color: #000000;
+    color: white;
+}
+
+#look:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.right img{
+    height: 300px;
+}
+
 h2{
     padding-bottom: 20px;
     padding-left: 60px;
+    padding-top: 20px;
     font-family: 'Oswald';
     font-weight: medium 500;
 }
