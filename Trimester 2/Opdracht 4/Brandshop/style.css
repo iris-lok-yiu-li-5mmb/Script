@@ -193,7 +193,7 @@ figcaption {
     width: 300px;
 }
 
-.trending-container {
+.trending{
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -204,7 +204,7 @@ figcaption {
     font-weight: bold;
 }
 
-.trending-item {
+.trend {
     flex: 1;
 }
 
@@ -214,7 +214,7 @@ figcaption {
     background-position: right;
 }
 
-footer{
+footer {
     background-color: #000000;
     color: rgb(157, 155, 155);
     padding: 5vw 10vw;
