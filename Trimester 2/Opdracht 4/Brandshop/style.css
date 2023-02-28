@@ -179,6 +179,16 @@ figcaption {
     color: rgb(255, 255, 255);
 }
 
+.productinfo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productinfo-container :last-child{
+    text-align: right;
+}
+
 #kidshoe {
     width: 300px;
     height: 300px;
@@ -196,22 +206,11 @@ figcaption {
 .trending{
     padding: 50px;
     display: flex;
-    justify-content: center;
     gap: 2rem;
-}
-
-.money{
-    font-weight: bold;
 }
 
 .trend {
     flex: 1;
-}
-
-.bgd-join {
-    background-image: url(https://jdsportsblog.s3.amazonaws.com/wp-content/uploads/2022/09/Blog_Header_1920x840-10-scaled.jpg);
-    background-size: cover;
-    background-position: right;
 }
 
 footer {
@@ -236,6 +235,7 @@ color: white;
 footer .bottom:first-child{
     margin-bottom: 2rem;
 }
+
 
 
 
