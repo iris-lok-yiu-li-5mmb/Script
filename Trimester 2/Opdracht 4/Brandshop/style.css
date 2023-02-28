@@ -57,6 +57,7 @@ body {
 .menu {
     padding: 1rem;
     justify-content: center;
+    font-family: 'oswald' sans-serif;
 }
 
 .extra {
@@ -199,18 +200,41 @@ figcaption {
     gap: 2rem;
 }
 
-.trending-item {
-    flex: 1;
+.money{
+    font-weight: bold;
 }
 
-.join-container {
-
+.trending-item {
+    flex: 1;
 }
 
 .bgd-join {
     background-image: url(https://jdsportsblog.s3.amazonaws.com/wp-content/uploads/2022/09/Blog_Header_1920x840-10-scaled.jpg);
     background-size: cover;
     background-position: right;
+}
+
+footer{
+    background-color: #000000;
+    color: rgb(157, 155, 155);
+    padding: 5vw 10vw;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a{
+list-style: none;
+color: white;
+}
+
+footer .bottom:first-child{
+    margin-bottom: 2rem;
 }
 
 
