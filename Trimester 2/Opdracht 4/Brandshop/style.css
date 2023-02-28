@@ -132,20 +132,25 @@ input:hover::placeholder {
 .bigadd{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: baseline;
     gap: auto;
     padding: 45px;
     background-color: rgb(185, 185, 185);
+    overflow: hidden;
 }
 
 .left{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     max-width: 150px;
     max-height: 250p;
-    padding: 15px;
-    gap: 35px;
+    padding: 10px;
+    gap: 15px;
+}
+
+.left h2{
+    font-family: 'Oswald';
+    font-weight: medium 500;
 }
 
 #crossed{
@@ -161,7 +166,11 @@ input:hover::placeholder {
     transition: all .2s ease-in;
 }
 
-
+.button{
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
 
 #buy{
     background-color: white;
@@ -187,7 +196,7 @@ input:hover::placeholder {
     height: 300px;
 }
 
-h2{
+#help {
     padding-bottom: 20px;
     padding-left: 60px;
     padding-top: 20px;
