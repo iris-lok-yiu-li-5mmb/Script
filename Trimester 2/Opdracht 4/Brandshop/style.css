@@ -179,7 +179,7 @@ input:hover::placeholder {
 }
 
 #buy:hover{
-    background-color: #000000;
+    background-color: rgb(185, 185, 185);
     color: white;
 }
 
@@ -189,7 +189,7 @@ input:hover::placeholder {
 }
 
 #look:hover{
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     color: #000000;
 }
 
