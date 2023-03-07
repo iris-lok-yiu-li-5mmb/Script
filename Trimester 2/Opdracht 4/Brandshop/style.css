@@ -132,11 +132,12 @@ input:hover::placeholder {
 .bigadd{
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
+    justify-content: center;
     gap: auto;
     padding: 45px;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(1, 1, 1);
     overflow: hidden;
+    color: white;
 }
 
 .left{
@@ -194,6 +195,8 @@ input:hover::placeholder {
 
 .right img{
     height: 300px;
+    padding-left: 40px;
+    
 }
 
 #help {
@@ -289,6 +292,7 @@ footer {
 
 footer ul li{
     list-style: none;
+    font-family: 'Oswald';
 }
 
 footer a{
@@ -303,6 +307,7 @@ color: white;
 footer .bottom:first-child{
     margin-bottom: 2rem;
 }
+
 
 
 
