@@ -47,9 +47,6 @@ nav a:hover {
     text-underline-offset: 10px;
 }
 
-
-
-
 .grijs {
     background-color: rgb(185, 185, 185);
     padding: 1rem;
@@ -278,6 +275,7 @@ figcaption {
 }
 
 .trend {
+    display: flex;
     flex: 1;
 }
 
@@ -293,6 +291,9 @@ footer {
     margin-bottom: 10px;
 }
 
+.cad, .help, .nike{
+    display: flex;
+}
 
 footer ul li{
     list-style: none;
