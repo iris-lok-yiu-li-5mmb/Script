@@ -254,28 +254,20 @@ figcaption {
     text-align: right;
 }
 
-#kidshoe {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-}
-
-#menshoe{
-    width: 300px;
-}
-
-#womenshoe{
-    width: 300px;
-}
-
 .trending{
     padding: 50px;
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
+.trending img{
+    display: inline-block;
+    width: 100%;
+}
+
+
 .trend {
-    display: flex;
     flex: 1;
 }
 
@@ -306,12 +298,12 @@ footer a{
 }
 
 footer ul li:first-child a, footer ul:first-child li a{
-list-style: none;
-color: white;
-font-size: 1rem;
-font-weight: 600;
-text-transform: uppercase;
-}
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
 
 footer .bottomt:first-child{
     margin-bottom: 2rem;
