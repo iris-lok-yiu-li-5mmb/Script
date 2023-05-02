@@ -5,7 +5,7 @@
 }
 
 :root{
-    --bgc-01: #804e4e
+    --bgc-01: #DECAB1
 }
 
 header {
@@ -13,12 +13,17 @@ header {
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
     align-items: center;
-    background-color: aquamarine;
+    background-color: var(--bgc-01);
     padding: 2rem;
 }
 
 h1{
     display: inline;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 .logo img{
@@ -27,16 +32,19 @@ display: inline;
 }
 
 nav li{
-    display: inline-block;
+    display: inline;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #8F614A
+}
+
+nav a:hover{
+    color: #382A1D;
 }
 
 body{
-    background-color: var(--bgc-01);
     color: black;
     font-family: "rockwell", sans-serif;
 }
