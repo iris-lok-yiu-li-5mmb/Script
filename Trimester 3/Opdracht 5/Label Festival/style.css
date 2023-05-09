@@ -50,4 +50,14 @@ h1{
     font-size: 700 px;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+}
+
+
+
 
