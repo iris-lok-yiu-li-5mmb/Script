@@ -48,6 +48,7 @@ body{
 h1{ 
     text-align: center;
     font-size: 700 px;
+    padding-bottom: 30px;
 }
 
 .grid-container{
@@ -56,7 +57,14 @@ h1{
     align-items: center;
     justify-items: center;
     gap: 2rem;
+    position: relative;
+    text-align: center;
 }
+
+.j16, .j18, .start, .last{
+color: #8F614A;
+}
+
 
 
 
