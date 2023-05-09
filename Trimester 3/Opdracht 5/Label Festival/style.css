@@ -62,10 +62,36 @@ h1{
 }
 
 .j16, .j18, .start, .last{
-color: #8F614A;
+color: #B59A7D;
 }
 
+.j17, .middle{
+    color: #080502;
+}
 
+footer{
+    background-color: #382A1D;
+}
 
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;;
+    gap: 2rem;
+}
 
+.footer-more{
+    padding-left: 20px;
+}
 
+.footer-policies{
+    text-align: center;
+}
+.media {
+    justify-items: end;
+}
+
+#copy{
+    text-align: center;
+    padding-top: 2rem;
+}
