@@ -11,42 +11,43 @@
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: end;
-    align-items: center;
     background-color: var(--bgc-01);
-    padding: 2rem;
-}
-
-h1{
-    display: inline;
-}
-
-.logo{
-    display: flex;
     align-items: center;
 }
 
 .logo img{
-width: 4rem;
-display: inline;
+        height: 15vh;
+        padding-left: 10px;
+        padding-top: 5px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
 }
 
 nav li{
-    display: inline;
+margin: 2% 2%;
 }
 
 a{
+    font-size: 20px;
     text-decoration: none;
     color: #8F614A
 }
 
 nav a:hover{
-    color: #382A1D;
+    color: #382A1D
 }
 
 body{
-    color: black;
-    font-family: "rockwell", sans-serif;
+    font-family: "all-round-gothic", sans-serif;
+    font-style: normal;
+}
+
+h1{ 
+    text-align: center;
+    font-size: 700 px;
 }
 
 
