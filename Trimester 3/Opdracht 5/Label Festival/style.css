@@ -71,6 +71,7 @@ color: #B59A7D;
 
 footer{
     background-color: #382A1D;
+    color: #DECAB1;
 }
 
 .footer-grid{
@@ -84,14 +85,8 @@ footer{
     padding-left: 20px;
 }
 
-.footer-policies{
-    text-align: center;
-}
-.media {
-    justify-items: end;
-}
-
 #copy{
     text-align: center;
     padding-top: 2rem;
+    color: #8F614A;
 }
