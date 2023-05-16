@@ -90,3 +90,11 @@ footer{
     padding-top: 2rem;
     color: #8F614A;
 }
+
+.flex-contianer{
+    display: flex;
+}
+
+.flex-item{
+    flex: 1;
+}
