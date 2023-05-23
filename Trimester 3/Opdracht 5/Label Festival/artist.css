@@ -16,9 +16,9 @@ header {
 }
 
 .logo img{
-        height: 15vh;
-        padding-left: 10px;
-        padding-top: 5px;
+    height: 15vh;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 nav ul{
@@ -51,22 +51,11 @@ h1{
     padding-bottom: 30px;
 }
 
-.grid-container{
+#artist{
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    align-items: center;
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     position: relative;
-    text-align: center;
-}
-
-.j16, .j18, .start, .last{
-color: #B59A7D;
-}
-
-.j17, .middle{
-    color: #080502;
 }
 
 footer{
