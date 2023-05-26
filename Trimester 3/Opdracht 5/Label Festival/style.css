@@ -20,6 +20,9 @@ header {
         padding-left: 10px;
         padding-top: 5px;
 }
+header input#burger{
+    display: none;
+}
 
 nav ul{
     display: flex;
