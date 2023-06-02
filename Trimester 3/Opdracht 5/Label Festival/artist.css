@@ -57,12 +57,14 @@ h1{
 
 div.West{
     justify-content: space-between;
+    
 }
 
 p, iframe, h2{
     display: inline;
     display: block;
     padding: 10px;
+    padding-left: 20px;
 }
 
 footer{
