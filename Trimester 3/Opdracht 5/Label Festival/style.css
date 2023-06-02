@@ -19,6 +19,18 @@ header input#burger {
     display: none;
 }
 
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem 1ch;
+    text-align: right;
+    cursor: pointer;
+}
+
+
 
 .logo img{
         height: 15vh;
