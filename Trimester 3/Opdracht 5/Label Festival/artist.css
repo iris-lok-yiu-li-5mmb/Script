@@ -57,12 +57,17 @@ h1{
 
 div.West{
     justify-content: space-between;
-    
+
 }
 
-p, iframe, h2{
+p, h2{
     display: inline;
     display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+iframe{
     padding: 10px;
     padding-left: 20px;
 }
