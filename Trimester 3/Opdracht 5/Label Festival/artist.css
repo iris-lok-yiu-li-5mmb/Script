@@ -52,10 +52,17 @@ h1{
 }
 
 #artist{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    position: relative;
+    display: flex;
+}
+
+div.West{
+    justify-content: space-between;
+}
+
+p, iframe, h2{
+    display: inline;
+    display: block;
+    padding: 10px;
 }
 
 footer{
