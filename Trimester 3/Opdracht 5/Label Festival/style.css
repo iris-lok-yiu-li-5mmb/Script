@@ -35,11 +35,6 @@ header label[for="burger"] i {
     font-size: 1.25rem;
 }
 
-@media (width <=750px) {
-    header label[for="burger"] {
-        display: block;
-}
-
 .logo img{
         height: 15vh;
         padding-left: 10px;
