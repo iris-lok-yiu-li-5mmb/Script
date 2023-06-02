@@ -65,7 +65,8 @@ body{
     font-style: normal;
 }
 
-@media (width <=750px) {
+@media (width <=750=>) {
+    grid-template-columns: 1fr;
 }
 
 h1{ 
