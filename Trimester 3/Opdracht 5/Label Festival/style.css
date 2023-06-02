@@ -15,6 +15,9 @@ header {
     align-items: center;
 }
 
+header input#burger {
+    display: none;
+}
 
 
 .logo img{
