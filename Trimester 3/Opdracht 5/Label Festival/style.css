@@ -30,7 +30,10 @@ header label[for="burger"] {
     cursor: pointer;
 }
 
-
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
 
 .logo img{
         height: 15vh;
