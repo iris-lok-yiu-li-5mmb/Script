@@ -9,10 +9,10 @@
 }
 
 header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: var(--bgc-01);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #DECAB1;
 }
 
 header input#burger {
@@ -20,19 +20,16 @@ header input#burger {
 }
 
 header label[for="burger"] {
-    position: fixed;
     z-index: 3;
-    top: 0;
-    right: 0;
-    width: 100%;
     padding: 1rem 1ch;
     text-align: right;
     cursor: pointer;
+    display: none;
 }
 
 header label[for="burger"] i {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .logo img {
@@ -44,6 +41,7 @@ header label[for="burger"] i {
 nav ul {
     display: flex;
     list-style: none;
+    padding-right: 50px;
 }
 
 nav li {
@@ -146,6 +144,25 @@ footer {
 @media (width <=750px) {
     #lineup .grid-container{
         grid-template-columns: 1fr;
+    }
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        position: absolute;
+        z-index: 3;
+        top: 4rem;
+        right: 1rem;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+        display: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
     }
 }
     
