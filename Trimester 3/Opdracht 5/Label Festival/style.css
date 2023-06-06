@@ -163,6 +163,8 @@ footer {
     header input#burger:checked+label[for="burger"]+nav ul {
         display: flex;
         flex-direction: column;
+        background-color: #DECAB1;
+        position: sticky;
     }
 }
     
