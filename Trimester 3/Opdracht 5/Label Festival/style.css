@@ -116,8 +116,9 @@ footer {
     color: #8F614A;
 }
 
-@media (width <=750) {
-    #lineup .grid-container {
-        grid-template-columns: (1fr)
+@media (width <=750px) {
+    #lineup .grid-container{
+        grid-template-columns: 1fr;
     }
 }
+    
