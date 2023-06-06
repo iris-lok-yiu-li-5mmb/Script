@@ -60,6 +60,10 @@ div.West{
 
 }
 
+.Summertime{
+    padding-left: 10px;
+}
+
 p, h2{
     display: inline;
     display: block;
@@ -69,7 +73,12 @@ p, h2{
 
 iframe{
     padding: 10px;
-    padding-left: 20px;
+}
+
+@media (width <=750) {
+    .artist {
+        grid-template-columns: 1fr;
+    }
 }
 
 footer{
@@ -92,12 +101,4 @@ footer{
     text-align: center;
     padding-top: 2rem;
     color: #8F614A;
-}
-
-.flex-contianer{
-    display: flex;
-}
-
-.flex-item{
-    flex: 1;
 }
